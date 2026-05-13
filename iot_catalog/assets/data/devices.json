@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Arduino Uno R3",
+    "description": "Akıllı ev projelerinin beyni. ATmega328P tabanlı, dijital ve analog pinlere sahip açık kaynaklı mikrodenetleyici kartı. Geniş kütüphane desteği ve topluluk yardımı ile prototipleme için en çok tercih edilen karttır.",
+    "price": 350.0,
+    "imagePath": "assets/images/arduino.png",
+    "category": "Mikrodenetleyici",
+    "specs": {
+      "Üretim Yılı": "2024",
+      "Seri No": "AR-UNO-R3-9921",
+      "Mikrodenetleyici": "ATmega328P",
+      "Çalışma Gerilimi": "5V",
+      "Giriş Gerilimi": "7-12V",
+      "Dijital I/O Pinleri": "14",
+      "Analog Giriş Pinleri": "6",
+      "Flash Bellek": "32 KB"
+    }
+  },
+  {
+    "id": "2",
+    "name": "PIR Hareket Sensörü (HC-SR501)",
+    "description": "Ortamdaki kızılötesi ışımadaki değişimleri algılayarak hareket tespiti yapar. Ayarlanabilir hassasiyeti ve gecikme süresi ile güvenlik sistemleri için idealdir.",
+    "price": 45.50,
+    "imagePath": "assets/images/pir.png",
+    "category": "Sensör",
+    "specs": {
+      "Üretim Yılı": "2023",
+      "Seri No": "SN-PIR-HC501",
+      "Algılama Mesafesi": "3-7 Metre",
+      "Algılama Açısı": "110 Derece",
+      "Çalışma Voltajı": "4.5V - 20V",
+      "Bekleme Süresi": "0.5s - 200s"
+    }
+  },
+  {
+    "id": "3",
+    "name": "DHT11 Sıcaklık ve Nem Sensörü",
+    "description": "Dijital sinyal çıkışı veren gelişmiş bir sıcaklık ve nem sensörüdür. Ev otomasyonu ve iklimlendirme projelerinde ortam verilerini okumak için kullanılır.",
+    "price": 60.0,
+    "imagePath": "assets/images/dht11.png",
+    "category": "Sensör",
+    "specs": {
+      "Üretim Yılı": "2024",
+      "Seri No": "SN-DHT11-X2",
+      "Sıcaklık Aralığı": "0°C - 50°C",
+      "Nem Aralığı": "%20 - %90 RH",
+      "Hata Payı": "±2°C / ±%5 RH",
+      "Örnekleme Periyodu": "1 Saniye"
+    }
+  },
+  {
+    "id": "4",
+    "name": "5V 2 Kanal Röle Kartı",
+    "description": "Yüksek voltajlı cihazları Arduino gibi düşük voltajlı kontrolcüer ile yönetmenizi sağlar. Lambalar, motorlar ve diğer ev aletlerini kontrol etmek için kullanılır.",
+    "price": 85.0,
+    "imagePath": "assets/images/relay.png",
+    "category": "Aktüatör",
+    "specs": {
+      "Üretim Yılı": "2023",
+      "Seri No": "RL-2CH-5V-004",
+      "Kanal Sayısı": "2 Kanal",
+      "Kontrol Sinyali": "5V DC",
+      "Maksimum Akım": "10A",
+      "Maksimum Voltaj": "250V AC / 30V DC"
+    }
+  }
+]
