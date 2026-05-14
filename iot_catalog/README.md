@@ -1,17 +1,25 @@
-# iot_catalog
+# IoT & Smart Home Hardware Catalog
 
-A new Flutter project.
+## 📌 Proje Hakkında
+Bu proje, Flutter temel eğitim kampı bitirme görevi kapsamında geliştirilmiş bir "Mini Katalog" uygulamasıdır. Klasik e-ticaret temalarından farklı olarak, gömülü sistemler, mikrodenetleyiciler ve akıllı ev donanımlarına odaklanan mühendislik konseptli bir arayüz tasarlanmıştır.
 
-## Getting Started
+Projede hiçbir harici paket (kütüphane) kullanılmamış olup, tamamen Flutter'ın çekirdek (core) yapısı ile inşa edilmiştir.
 
-This project is a starting point for a Flutter application.
+**Öne Çıkan Özellikler:**
+* Sıfır harici paket kullanımı.
+* Karanlık Tema (Dark Mode) ve Aydınlık Tema (Light Mode) tam uyumluluğu.
+* Sayfalar arası yumuşak geçiş sağlayan Hero animasyonları.
+* `ValueNotifier` kullanılarak optimize edilmiş sepet state yönetimi.
+* Yerel JSON dosyasından asenkron veri okuma ve modelleme.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Kullanılan Teknolojiler
+* **Framework:** Flutter (Sadece `material.dart` kullanılmıştır)
+* **Dil:** Dart
+* **Flutter Sürümü:** 3.19.x *(Kendi terminaline `flutter --version` yazarak burayı kendi sürümünle güncelle)*
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🚀 Çalıştırma Adımları
+Projeyi kendi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Bu depoyu bilgisayarınıza klonlayın:
+   ```bash
+   git clone [https://github.com/alimertaladag/iot_catalog.git](https://github.com/alimertaladag/iot_catalog.git)
